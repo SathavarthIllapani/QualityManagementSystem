@@ -6,125 +6,622 @@
 [![React](https://img.shields.io/badge/React-18.0+-61dafb)](https://react.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4+-38bdf8)](https://tailwindcss.com/)
 
-**QualitySphere QMS** is an original, next-generation, enterprise-grade Quality Management System built for highly regulated industries including Pharmaceuticals, Biotechnology, Medical Devices, Healthcare, Manufacturing, Food & Cosmetics, Chemicals, and Laboratories. 
+QualitySphere QMS is a modern, enterprise-grade *Quality Management System (QMS)* designed for regulated industries including *pharmaceuticals, biotechnology, medical devices, healthcare, and advanced manufacturing*.
 
-Combining the usability of modern SaaS platforms with strict regulatory compliance frameworks, QualitySphere delivers a unified workspace for quality control, risk management, automated workflows, and AI-driven intelligence.
+It brings quality operations, compliance workflows, documentation, risk management, audits, training, equipment readiness, and AI-assisted quality intelligence into a unified platform.
 
----
+QualitySphere is designed around principles and controls aligned with major regulatory and quality frameworks, including *FDA 21 CFR Part 11, EU GMP Annex 11, ISO 9001, ISO 13485, and ALCOA+ data integrity principles*.
 
-## 🌟 Key Capabilities & Compliance Standards
-
-- **Regulatory Compliance**: Built to support FDA 21 CFR Part 11, EU GMP Annex 11, ISO 9001, ISO 13485, ICH Q10, GAMP 5, and ALCOA+ principles.
-- **Data Integrity & Governance**: Complete immutable audit trails, electronic signatures with re-authentication, version pinning, and role-based access control (RBAC).
-- **AI-Powered Quality Intelligence**: Integrated LLM capabilities for automated SOP drafting, root cause analysis (RCA), CAPA generation, document summarization, risk prediction, and compliance chat.
-- **Configurable Workflow Engine**: Multi-stage approval cycles (sequential, parallel, conditional), escalations, delegation, and automated notifications.
-- **Enterprise UX**: Slate & Emerald design tokens, high-density data tables, dark/light theme switcher, collapsible navigation, and responsive dashboards.
+	⁠*Note:* QualitySphere is designed to support organizations implementing these regulatory and quality requirements. Using the software alone does not constitute regulatory certification or compliance.
 
 ---
 
-## 📦 Primary Modules (15 Core Domains)
+## ✨ Why QualitySphere?
 
-1. **Executive Dashboard**: Real-time compliance score, KPI widgets, pending task list, risk heat maps, audit status, and activity feeds.
-2. **Document Management System (DMS)**: SOP creation, folder hierarchies, versioning, review/approval cycles, watermarked PDF previews, and archiving.
-3. **CAPA Management**: Corrective and Preventive Action lifecycle, 5 Whys / Fishbone root cause analysis, action plans, and effectiveness verification.
-4. **Change Control**: Change requests, impact assessments, multi-department reviews, execution tracking, and closure logs.
-5. **Deviations**: Incident reporting, severity classification, investigations, root cause links, and trend reporting.
-6. **Audit Management**: Internal, external, and supplier audits, interactive checklists, finding logs, and CAPA integration.
-7. **Risk Management**: Risk registers, 5x5 interactive matrices, Failure Mode & Effects Analysis (FMEA) with RPN calculations, and mitigation tracking.
-8. **Training Management**: Matrix mapping, course assignments, automated assessments, competency tracking, and renewal alerts.
-9. **Supplier Management**: Qualification workflows, vendor evaluation scorecards, document tracking, and audit links.
-10. **Customer Complaints**: Intake, investigation logs, regulatory reporting triggers, root cause analysis, and resolution tracking.
-11. **Equipment Management**: Asset register, maintenance schedules, operational logs, and status tracking.
-12. **Calibration Management**: Equipment calibration cycles, certificate storage, tolerance checks, and due-date alerts.
-13. **Validation Management**: Qualification protocol execution (IQ / OQ / PQ), validation matrix, and approval logs.
-14. **User & Access Management**: Multi-role engine (11 default roles), granular permission matrices, department scoping, and security policies.
-15. **Reports & Analytics**: Custom reporting builder with export support for PDF, Excel, and CSV formats.
+Traditional QMS platforms can be complex, fragmented, and difficult to navigate. QualitySphere focuses on combining *enterprise-grade quality controls with a modern SaaS experience*.
+
+### Core principles
+
+•⁠  ⁠🔐 *Compliance-first architecture*
+•⁠  ⁠📋 *Controlled documentation & versioning*
+•⁠  ⁠🧾 *Immutable auditability*
+•⁠  ⁠✍️ *Electronic signatures & re-authentication*
+•⁠  ⁠🔄 *Configurable quality workflows*
+•⁠  ⁠🤖 *AI-assisted quality operations*
+•⁠  ⁠📊 *Real-time quality intelligence*
+•⁠  ⁠👥 *Granular role-based access control*
+•⁠  ⁠🌗 *Modern responsive enterprise UX*
 
 ---
 
-## 🤖 Integrated AI Capabilities
+# 🏢 Core Quality Modules
 
-- **Natural Language Search**: Semantic search across documents, CAPAs, audits, and equipment logs.
-- **SOP & CAPA Generation**: AI-assisted draft creation based on regulatory templates and incident descriptions.
-- **Root Cause & Risk Prediction**: Machine learning suggestions for incident investigations and risk priority score estimation.
-- **Automated Summaries**: Instant executive summaries of lengthy audit findings, investigations, and regulatory documents.
-- **Knowledge Base Chat**: Conversational assistant trained on internal quality guidelines and standard operating procedures.
+QualitySphere integrates *15 major quality domains* into a single workspace.
 
----
-
-## 🛣️ Product Roadmap
-
-### Phase 1 — Prototype (Current State)
-- Interactive, investor-ready UI prototype with full surface area for 15 modules.
-- Marketing landing page, auth screens, mega dashboard, dark/light mode switcher, and mock enterprise datasets.
-- Interactive workflow modals, electronic signature dialogs, and AI assistant side-panel preview.
-
-### Phase 2 — MVP
-- Full database integration (PostgreSQL with Row Level Security).
-- Active authentication & authorization with JWT, session timeouts, and granular role permissions.
-- File storage, PDF rendering engine with dynamic watermarking, and electronic signature verification.
-- Live background jobs, email alerts, and workflow state transition triggers.
-
-### Phase 3 — Production & Scale
-- Multi-tenant cloud deployment (AWS / Azure / Kubernetes ready).
-- Redis caching, API gateway, microservice breakdown, and background job queues.
-- Enterprise SSO (SAML/OIDC), LDAP integration, 2FA enforcement, and automated disaster recovery.
+| #  | Module                     | Capabilities                                                                              |
+| -- | -------------------------- | ----------------------------------------------------------------------------------------- |
+| 01 | *Executive Dashboard*    | Quality KPIs, compliance score, risk overview, pending actions, audit status and activity |
+| 02 | *Document Management*    | SOPs, controlled documents, versioning, review cycles, approvals and archival             |
+| 03 | *CAPA Management*        | Corrective & preventive actions, RCA, action plans and effectiveness verification         |
+| 04 | *Deviation Management*   | Incident reporting, classification, investigation, RCA and trend analysis                 |
+| 05 | *Change Control*         | Change requests, impact assessments, reviews, implementation and closure                  |
+| 06 | *Audit Management*       | Internal, external and supplier audits, findings, checklists and CAPA integration         |
+| 07 | *Risk Management*        | Risk registers, FMEA, RPN calculations and interactive 5×5 risk matrices                  |
+| 08 | *Supplier Management*    | Supplier qualification, evaluation, documentation and audit history                       |
+| 09 | *Customer Complaints*    | Complaint intake, investigation, RCA, resolution and regulatory triggers                  |
+| 10 | *Training Management*    | Training matrices, assignments, assessments, competency and renewal tracking              |
+| 11 | *Equipment Management*   | Asset registers, maintenance schedules, operational status and history                    |
+| 12 | *Calibration Management* | Calibration schedules, certificates, tolerance checks and due-date alerts                 |
+| 13 | *Validation Management*  | IQ/OQ/PQ protocols, execution tracking, validation matrices and approvals                 |
+| 14 | *Access Management*      | RBAC, enterprise roles, granular permissions and security controls                        |
+| 15 | *Reports & Analytics*    | Quality dashboards, analytics, reports and export capabilities                            |
 
 ---
 
-## 🛠️ Tech Stack & Architecture
+# 🤖 AI Quality Assistant
 
-- **Framework**: [TanStack Start](https://tanstack.com/router) (Full-Stack React Framework)
-- **Language**: [TypeScript](https://www.typescriptlang.org/) (Strict Mode)
-- **Styling**: [Tailwind CSS](https://tailwindcss.com/) + CSS variables (`oklch` color system)
-- **UI Components**: [shadcn/ui](https://ui.shadcn.com/) primitives & [Lucide Icons](https://lucide.dev/)
-- **State Management**: [Zustand](https://zustand-demo.pmnd.rs/) (Client state) & [TanStack Query](https://tanstack.com/query) (Server state)
-- **Charts & Visualization**: [Recharts](https://recharts.org/)
-- **Form Handling**: React Hook Form + Zod validation
+QualitySphere includes an embedded *AI Quality Assistant* designed to help quality teams work with their organization's quality information more efficiently.
+
+The assistant is accessible through an integrated side panel and supports natural-language interaction with quality workflows and documentation.
+
+### AI capabilities
+
+#### 🔎 Natural-Language Quality Search
+
+Ask questions about quality documentation and operational data using natural language rather than navigating through multiple modules.
+
+#### 📝 SOP & CAPA Drafting
+
+Generate initial drafts for:
+
+•⁠  ⁠Standard Operating Procedures
+•⁠  ⁠CAPA records
+•⁠  ⁠Investigation summaries
+•⁠  ⁠Corrective actions
+•⁠  ⁠Preventive actions
+
+AI-generated content remains subject to appropriate human review and approval workflows.
+
+#### 🧠 Root Cause Analysis
+
+Assist investigations using established methodologies including:
+
+•⁠  ⁠*5 Whys*
+•⁠  ⁠*Fishbone / Ishikawa analysis*
+•⁠  ⁠Contributing-factor identification
+•⁠  ⁠Corrective-action suggestions
+
+#### 📄 Document Summarization
+
+Convert lengthy quality documents, audit findings, investigations and procedures into concise summaries.
+
+#### 💬 Compliance Knowledge Chat
+
+Interact conversationally with organizational quality knowledge and controlled documentation.
 
 ---
 
-## 🚀 Development Setup
+# 🔄 Quality Workflow Engine
 
-### Prerequisites
+QualitySphere provides a configurable workflow engine for managing controlled quality processes.
 
-- **Node.js**: v18.0.0 or higher
-- **npm**: v9.0.0 or higher (or `pnpm` / `yarn`)
+### Standard document lifecycle
 
-### Quick Start
+⁠ text
+Draft
+  ↓
+Review
+  ↓
+Approved
+  ↓
+Effective
+  ↓
+Obsolete
+ ⁠
 
-1. **Clone the repository**
-   ```sh
-   git clone [https://github.com/SathavarthIllapani/QualityManagementSystem.git](https://github.com/SathavarthIllapani/QualityManagementSystem.git)
-   cd QualityManagementSystem
+Workflows can be extended to support organization-specific approval requirements.
 
-Install dependencies
+### Workflow capabilities
 
-npm install
-Configure environment variables
+•⁠  ⁠Multi-stage approvals
+•⁠  ⁠Sequential approvals
+•⁠  ⁠Configurable approval states
+•⁠  ⁠Automated notifications
+•⁠  ⁠Delegation
+•⁠  ⁠Escalation rules
+•⁠  ⁠Approval tracking
+•⁠  ⁠Electronic signatures
+•⁠  ⁠Re-authentication
+•⁠  ⁠Version-controlled transitions
+•⁠  ⁠Complete workflow history
 
-cp .env.example .env
-Run the local development server
+---
 
-npm run dev
-Open http://localhost:3000 in your browser.
+# 🔐 Compliance & Data Integrity
 
-📁 Repository Structure
-QualityManagementSystem/
+QualitySphere is architected with regulated environments in mind.
+
+### FDA 21 CFR Part 11
+
+The platform is designed to support electronic-record and electronic-signature controls through mechanisms such as:
+
+•⁠  ⁠Electronic signatures
+•⁠  ⁠User re-authentication
+•⁠  ⁠Controlled access
+•⁠  ⁠Audit trails
+•⁠  ⁠Record versioning
+•⁠  ⁠Traceable workflow actions
+
+### EU GMP Annex 11
+
+QualitySphere incorporates concepts relevant to computerized systems in regulated environments, including:
+
+•⁠  ⁠Controlled access
+•⁠  ⁠Data integrity
+•⁠  ⁠Auditability
+•⁠  ⁠System activity tracking
+•⁠  ⁠Controlled workflows
+
+### ISO 9001 & ISO 13485
+
+The platform provides functionality supporting quality-management processes such as:
+
+•⁠  ⁠Document control
+•⁠  ⁠CAPA
+•⁠  ⁠Risk management
+•⁠  ⁠Audits
+•⁠  ⁠Training
+•⁠  ⁠Change management
+•⁠  ⁠Supplier management
+•⁠  ⁠Complaint handling
+
+### ALCOA+ Principles
+
+QualitySphere's data governance approach is designed around data-integrity principles including:
+
+•⁠  ⁠*Attributable*
+•⁠  ⁠*Legible*
+•⁠  ⁠*Contemporaneous*
+•⁠  ⁠*Original*
+•⁠  ⁠*Accurate*
+•⁠  ⁠*Complete*
+•⁠  ⁠*Consistent*
+•⁠  ⁠*Enduring*
+•⁠  ⁠*Available*
+
+---
+
+# 🧾 Audit Trail & Electronic Signatures
+
+Quality operations require more than simply storing records.
+
+QualitySphere provides traceability across critical actions.
+
+### Audit Trail
+
+The system is designed to track:
+
+•⁠  ⁠Who performed an action
+•⁠  ⁠What was changed
+•⁠  ⁠When the action occurred
+•⁠  ⁠Previous and current values
+•⁠  ⁠Workflow transitions
+•⁠  ⁠Approval events
+•⁠  ⁠Electronic-signature events
+
+### Electronic Signatures
+
+Controlled workflows can require:
+
+1.⁠ ⁠User authentication
+2.⁠ ⁠Re-authentication
+3.⁠ ⁠Signature intent
+4.⁠ ⁠Signature capture
+5.⁠ ⁠Timestamped event
+6.⁠ ⁠Audit trail entry
+
+This creates a traceable relationship between users and quality decisions.
+
+---
+
+# 👥 Enterprise Access Control
+
+QualitySphere uses *Role-Based Access Control (RBAC)* to separate responsibilities across the organization.
+
+The platform supports *11 default enterprise roles*, with granular permissions and access boundaries.
+
+Typical responsibilities can include:
+
+•⁠  ⁠Quality Assurance
+•⁠  ⁠Quality Control
+•⁠  ⁠Document Control
+•⁠  ⁠Auditors
+•⁠  ⁠Manufacturing
+•⁠  ⁠Engineering
+•⁠  ⁠Training
+•⁠  ⁠Regulatory Affairs
+•⁠  ⁠Supplier Quality
+•⁠  ⁠Management
+•⁠  ⁠System Administration
+
+Permissions can be mapped to modules, actions and workflow operations.
+
+---
+
+# 📊 Reports & Analytics
+
+QualitySphere converts operational quality data into actionable intelligence.
+
+### Dashboard insights
+
+•⁠  ⁠Overall quality performance
+•⁠  ⁠Compliance indicators
+•⁠  ⁠Open CAPAs
+•⁠  ⁠Deviation trends
+•⁠  ⁠Audit findings
+•⁠  ⁠Risk distribution
+•⁠  ⁠Training compliance
+•⁠  ⁠Equipment readiness
+•⁠  ⁠Calibration status
+•⁠  ⁠Validation progress
+•⁠  ⁠Supplier performance
+•⁠  ⁠Complaint trends
+
+Interactive visualizations are powered by *Recharts*.
+
+---
+
+# 🎨 Design System
+
+QualitySphere follows a modern enterprise SaaS design system optimized for high-density quality workflows.
+
+### Primary palette
+
+| Token   | Value     | Purpose                         |
+| ------- | --------- | ------------------------------- |
+| Slate   | ⁠ #0F172A ⁠ | Primary foundation              |
+| Emerald | ⁠ #059669 ⁠ | Primary action / quality accent |
+
+The interface supports both:
+
+•⁠  ⁠🌞 Light mode
+•⁠  ⁠🌙 Dark mode
+
+### UX principles
+
+•⁠  ⁠High information density without visual clutter
+•⁠  ⁠Clear workflow states
+•⁠  ⁠Consistent status indicators
+•⁠  ⁠Accessible interaction patterns
+•⁠  ⁠Responsive layouts
+•⁠  ⁠Enterprise-grade data tables
+•⁠  ⁠Contextual actions
+•⁠  ⁠Persistent navigation
+•⁠  ⁠Integrated AI assistance
+
+---
+
+# 🛠️ Technology Stack
+
+QualitySphere is built using a modern *full-stack TypeScript architecture*.
+
+### Frontend
+
+•⁠  ⁠*React*
+•⁠  ⁠*TypeScript*
+•⁠  ⁠*TanStack Start*
+•⁠  ⁠*Tailwind CSS*
+•⁠  ⁠*shadcn/ui*
+•⁠  ⁠*Lucide Icons*
+
+### State & Data
+
+•⁠  ⁠*Zustand* — Client/UI state
+•⁠  ⁠*TanStack Query* — Server state and asynchronous data management
+
+### Visualization
+
+•⁠  ⁠*Recharts*
+
+### Validation & Forms
+
+•⁠  ⁠*React Hook Form*
+•⁠  ⁠*Zod*
+
+---
+
+# 🏗️ Architecture
+
+The application follows a modular architecture designed to allow individual quality domains to evolve independently while sharing common enterprise infrastructure.
+
+⁠ text
+┌───────────────────────────────────────────────┐
+│                 QualitySphere                 │
+├───────────────────────────────────────────────┤
+│              Presentation Layer               │
+│        React + TanStack Start + UI            │
+├───────────────────────────────────────────────┤
+│              Quality Modules                  │
+│                                               │
+│ DMS │ CAPA │ Deviations │ Audits │ Risk       │
+│ CC  │ Training │ Suppliers │ Complaints       │
+│ Equipment │ Calibration │ Validation          │
+├───────────────────────────────────────────────┤
+│             Workflow Engine                  │
+│ Approvals │ Escalations │ Delegation          │
+│ Notifications │ Electronic Signatures         │
+├───────────────────────────────────────────────┤
+│            Intelligence Layer                │
+│ AI Assistant │ Search │ Summarization         │
+│ RCA Suggestions │ Quality Insights            │
+├───────────────────────────────────────────────┤
+│            Governance Layer                  │
+│ RBAC │ Audit Trails │ Versioning │ Security   │
+└───────────────────────────────────────────────┘
+ ⁠
+
+---
+
+
+qualitysphere-qms/
+├── public/
+│   ├── favicon.ico
+│   ├── logo.svg
+│   └── site.webmanifest
+│
 ├── src/
-│   ├── assets/          # SVG icons, logos, and static assets
-│   ├── components/      # UI components, layout shell, AI side panel, PDF viewer
-│   ├── hooks/           # Custom React hooks (auth, theme, workflows)
-│   ├── lib/             # API client, database connection, utility functions
-│   ├── modules/         # Feature implementations for all 15 QMS domains
-│   ├── routes/          # File-based routes (marketing, auth, authenticated app)
-│   ├── store/           # Zustand state stores (app, auth, theme)
-│   ├── styles/          # Global styles & theme tokens
-│   └── types/           # TypeScript interfaces (QMS models, DB schema, workflows)
-├── public/              # Favicon, manifest, and public static files
-├── app.config.ts        # TanStack Start configuration
-├── tailwind.config.ts   # Tailwind configuration & token setup
-└── README.md            # Project documentation
+│   ├── assets/               # Static images, icons, and vector graphics
+│   │   └── logos/
+│   │
+│   ├── components/           # Reusable UI components
+│   │   ├── ai/               # AI Assistant side-panel, chat, and prompt triggers
+│   │   ├── common/           # Generic UI elements (PageHeader, StatusBadge, DataGrid)
+│   │   ├── layout/           # AppShell, Sidebar, Header, Breadcrumbs, Footer
+│   │   ├── pdf/              # Document & report PDF previewers/watermarking
+│   │   ├── ui/               # shadcn / Radix primitives (button, dialog, dropdown, input)
+│   │   └── workflow/         # Approval timeline, E-Signature dialog, Status Tracker
+│   │
+│   ├── hooks/                # Custom React hooks (useAuth, useWorkflow, useDebounce)
+│   │
+│   ├── lib/                  # Utilities, API clients, and configuration
+│   │   ├── api/              # Query/Mutation functions & Server Action wrappers
+│   │   ├── db/               # Client initialization & DB helper utilities
+│   │   ├── utils.ts          # Tailwind class mergers (cn) & formatting helpers
+│   │   └── validators/       # Zod schemas for forms, workflows, and API payloads
+│   │
+│   ├── modules/              # Feature-driven domain modules
+│   │   ├── admin/            # Role matrix, org settings, password policy, security logs
+│   │   ├── audit/            # Audits, finding logs, CAPA connections
+│   │   ├── capa/             # Corrective & Preventive Action workflows
+│   │   ├── change-control/   # Change requests & impact analysis
+│   │   ├── complaints/       # Customer complaints & investigation workflows
+│   │   ├── deviations/       # Deviation tracking & root-cause analysis
+│   │   ├── documents/        # SOP editor, version control, folder hierarchy, archiving
+│   │   ├── equipment/        # Equipment registers & maintenance logs
+│   │   ├── reports/          # Analytics dashboards, metrics, PDF/Excel exporters
+│   │   ├── risk/             # Risk registers, heat maps, FMEA matrix
+│   │   ├── suppliers/        # Supplier qualification & scorecard tracking
+│   │   ├── training/         # Course assignments, matrix, & compliance status
+│   │   └── validation/       # Protocol execution (IQ / OQ / PQ)
+│   │
+│   ├── routes/               # File-based routing (TanStack Start)
+│   │   ├── __root.tsx        # Root layout, providers, global styles
+│   │   ├── (auth)/           # Authentication routes (login, signup, reset-password)
+│   │   ├── (marketing)/      # Public landing page, features, pricing, FAQ, contact
+│   │   └── _authenticated/   # Protected application routes
+│   │       ├── route.tsx     # Layout guard & session check
+│   │       ├── index.tsx     # Mega Dashboard
+│   │       ├── admin/
+│   │       ├── audit/
+│   │       ├── capa/
+│   │       ├── change-control/
+│   │       ├── deviations/
+│   │       ├── documents/
+│   │       ├── equipment/
+│   │       ├── reports/
+│   │       ├── risk/
+│   │       ├── suppliers/
+│   │       ├── training/
+│   │       └── validation/
+│   │
+│   ├── store/                # Client state management (Zustand)
+│   │   ├── useAppStore.ts    # Sidebar collapse, theme, global search modal state
+│   │   └── useAuthStore.ts   # User profile, active role, permissions cache
+│   │
+│   ├── styles/
+│   │   └── styles.css        # Global CSS variables (oklch palette, light/dark themes)
+│   │
+│   └── types/                # Global TypeScript definitions & DB schema interfaces
+│       ├── database.ts       # Database auto-generated table & view definitions
+│       ├── qms.ts            # Enterprise domain models (Document, CAPA, Audit, Risk)
+│       └── workflow.ts       # Workflow engine states, step definitions, signature tokens
+│
+├── .env.example
+├── .gitignore
+├── app.config.ts             # TanStack Start configuration
+├── components.json           # shadcn/ui configuration
+├── package.json
+├── postcss.config.js
+├── tailwind.config.ts
+├── tsconfig.json
+└── README.md
 
-📄 License
-Distributed under the MIT License. See LICENSE for more information.
+
+
+---
+
+# 🚀 Getting Started
+
+## Prerequisites
+
+Make sure you have the following installed:
+
+•⁠  ⁠*Node.js 18+*
+•⁠  ⁠*npm 9+*
+
+Alternatively, you can use *pnpm* or *yarn*.
+
+---
+
+## Installation
+
+Clone the repository:
+
+⁠ bash
+git clone https://github.com/SathavarthIllapani/QualityManagementSystem.git
+ ⁠
+
+Navigate into the project:
+
+⁠ bash
+cd QualityManagementSystem
+ ⁠
+
+Install dependencies:
+
+⁠ bash
+npm install
+ ⁠
+
+---
+
+## Environment Configuration
+
+Create your local environment file:
+
+⁠ bash
+cp .env.example .env
+ ⁠
+
+Configure the required environment variables according to your local setup.
+
+---
+
+## Start Development Server
+
+⁠ bash
+npm run dev
+ ⁠
+
+The application will be available at:
+
+⁠ text
+http://localhost:3000
+ ⁠
+
+---
+
+# 🗺️ Roadmap
+
+## Phase 1 — Enterprise Prototype
+
+•⁠  ⁠[x] Enterprise QMS interface
+•⁠  ⁠[x] 15-module application surface
+•⁠  ⁠[x] Executive dashboard
+•⁠  ⁠[x] AI assistant interface
+•⁠  ⁠[x] Workflow interfaces
+•⁠  ⁠[x] Electronic-signature interactions
+•⁠  ⁠[x] Audit-trail interface
+•⁠  ⁠[x] Dark/light themes
+•⁠  ⁠[x] Enterprise RBAC interface
+•⁠  ⁠[x] Quality analytics dashboards
+
+---
+
+## Phase 2 — Production MVP
+
+•⁠  ⁠[ ] PostgreSQL database
+•⁠  ⁠[ ] Multi-tenant architecture
+•⁠  ⁠[ ] Production authentication
+•⁠  ⁠[ ] Granular authorization
+•⁠  ⁠[ ] Persistent audit trails
+•⁠  ⁠[ ] Document storage
+•⁠  ⁠[ ] PDF rendering
+•⁠  ⁠[ ] Electronic-signature verification
+•⁠  ⁠[ ] Workflow execution engine
+•⁠  ⁠[ ] Background jobs
+•⁠  ⁠[ ] Email notifications
+•⁠  ⁠[ ] Advanced AI/RAG integration
+
+---
+
+## Phase 3 — Enterprise Scale
+
+•⁠  ⁠[ ] Enterprise SSO
+•⁠  ⁠[ ] SAML / OIDC
+•⁠  ⁠[ ] LDAP integration
+•⁠  ⁠[ ] Multi-factor authentication
+•⁠  ⁠[ ] Redis caching
+•⁠  ⁠[ ] Background job queues
+•⁠  ⁠[ ] API gateway
+•⁠  ⁠[ ] Horizontal scaling
+•⁠  ⁠[ ] Kubernetes deployment
+•⁠  ⁠[ ] Disaster recovery
+•⁠  ⁠[ ] Enterprise observability
+•⁠  ⁠[ ] Advanced tenant isolation
+
+---
+
+# 🔭 Future Vision
+
+QualitySphere aims to evolve from a conventional QMS into an *AI-assisted quality intelligence platform*.
+
+Future capabilities may include:
+
+•⁠  ⁠Predictive quality analytics
+•⁠  ⁠AI-assisted deviation investigations
+•⁠  ⁠Automated CAPA effectiveness analysis
+•⁠  ⁠Risk trend prediction
+•⁠  ⁠Intelligent audit preparation
+•⁠  ⁠Supplier risk intelligence
+•⁠  ⁠Quality knowledge graphs
+•⁠  ⁠Regulatory intelligence
+•⁠  ⁠Cross-module anomaly detection
+•⁠  ⁠AI-powered inspection readiness
+
+The long-term goal is to move quality teams from *reactive compliance management toward proactive quality intelligence*.
+
+---
+
+# ⚠️ Regulatory Disclaimer
+
+QualitySphere is software designed to *support quality-management and compliance workflows*.
+
+References to FDA 21 CFR Part 11, EU GMP Annex 11, ISO standards, ALCOA+, ICH Q10, or other regulatory frameworks describe the system's design objectives and supported controls. They should not be interpreted as a guarantee of regulatory compliance or certification.
+
+Actual compliance depends on the organization's:
+
+•⁠  ⁠Configuration
+•⁠  ⁠Procedures
+•⁠  ⁠Validation activities
+•⁠  ⁠User controls
+•⁠  ⁠Infrastructure
+•⁠  ⁠Operating environment
+•⁠  ⁠Data governance
+•⁠  ⁠Quality-management practices
+
+Organizations deploying QualitySphere in regulated environments should perform their own *computer system validation (CSV), risk assessment, qualification, and regulatory assessment* as appropriate.
+
+---
+
+# 📄 License
+
+This project is distributed under the *MIT License*.
+
+See the ⁠ LICENSE ⁠ file for details.
+
+---
+
+# ⭐ Contributing
+
+Contributions, improvements, bug reports, and feature suggestions are welcome.
+
+Before submitting a major change, please consider opening an issue to discuss the proposed architecture or functionality.
+
+---
+
+## QualitySphere QMS
+
+*One platform. Every quality process. Intelligent by design.*
+
+	⁠Built to bring modern software engineering, enterprise quality management, and AI-assisted decision support together in one unified QMS.
