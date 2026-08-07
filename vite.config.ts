@@ -17,4 +17,5 @@ export default defineConfig({
     }),
     viteReact(),
   ],
+  base: process.env.VITE_BASE_PATH || "/react-vite-deploy/",
 });
