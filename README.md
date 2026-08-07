@@ -6,61 +6,62 @@
 [![React](https://img.shields.io/badge/React-18.0+-61dafb)](https://react.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4+-38bdf8)](https://tailwindcss.com/)
 
-QualitySphere QMS is a modern, enterprise-grade *Quality Management System (QMS)* designed for regulated industries including *pharmaceuticals, biotechnology, medical devices, healthcare, and advanced manufacturing*.
+
+QualitySphere QMS is a modern, enterprise-grade **Quality Management System (QMS)** designed for regulated industries including **pharmaceuticals, biotechnology, medical devices, healthcare, and advanced manufacturing**.
 
 It brings quality operations, compliance workflows, documentation, risk management, audits, training, equipment readiness, and AI-assisted quality intelligence into a unified platform.
 
-QualitySphere is designed around principles and controls aligned with major regulatory and quality frameworks, including *FDA 21 CFR Part 11, EU GMP Annex 11, ISO 9001, ISO 13485, and ALCOA+ data integrity principles*.
+QualitySphere is designed around principles and controls aligned with major regulatory and quality frameworks, including **FDA 21 CFR Part 11, EU GMP Annex 11, ISO 9001, ISO 13485, and ALCOA+ data integrity principles**.
 
-	⁠*Note:* QualitySphere is designed to support organizations implementing these regulatory and quality requirements. Using the software alone does not constitute regulatory certification or compliance.
+> **Note:** QualitySphere is designed to support organizations implementing these regulatory and quality requirements. Using the software alone does not constitute regulatory certification or compliance.
 
 ---
 
 ## ✨ Why QualitySphere?
 
-Traditional QMS platforms can be complex, fragmented, and difficult to navigate. QualitySphere focuses on combining *enterprise-grade quality controls with a modern SaaS experience*.
+Traditional QMS platforms can be complex, fragmented, and difficult to navigate. QualitySphere focuses on combining **enterprise-grade quality controls with a modern SaaS experience**.
 
 ### Core principles
 
-•⁠  ⁠🔐 *Compliance-first architecture*
-•⁠  ⁠📋 *Controlled documentation & versioning*
-•⁠  ⁠🧾 *Immutable auditability*
-•⁠  ⁠✍️ *Electronic signatures & re-authentication*
-•⁠  ⁠🔄 *Configurable quality workflows*
-•⁠  ⁠🤖 *AI-assisted quality operations*
-•⁠  ⁠📊 *Real-time quality intelligence*
-•⁠  ⁠👥 *Granular role-based access control*
-•⁠  ⁠🌗 *Modern responsive enterprise UX*
+* 🔐 **Compliance-first architecture**
+* 📋 **Controlled documentation & versioning**
+* 🧾 **Immutable auditability**
+* ✍️ **Electronic signatures & re-authentication**
+* 🔄 **Configurable quality workflows**
+* 🤖 **AI-assisted quality operations**
+* 📊 **Real-time quality intelligence**
+* 👥 **Granular role-based access control**
+* 🌗 **Modern responsive enterprise UX**
 
 ---
 
 # 🏢 Core Quality Modules
 
-QualitySphere integrates *15 major quality domains* into a single workspace.
+QualitySphere integrates **15 major quality domains** into a single workspace.
 
 | #  | Module                     | Capabilities                                                                              |
 | -- | -------------------------- | ----------------------------------------------------------------------------------------- |
-| 01 | *Executive Dashboard*    | Quality KPIs, compliance score, risk overview, pending actions, audit status and activity |
-| 02 | *Document Management*    | SOPs, controlled documents, versioning, review cycles, approvals and archival             |
-| 03 | *CAPA Management*        | Corrective & preventive actions, RCA, action plans and effectiveness verification         |
-| 04 | *Deviation Management*   | Incident reporting, classification, investigation, RCA and trend analysis                 |
-| 05 | *Change Control*         | Change requests, impact assessments, reviews, implementation and closure                  |
-| 06 | *Audit Management*       | Internal, external and supplier audits, findings, checklists and CAPA integration         |
-| 07 | *Risk Management*        | Risk registers, FMEA, RPN calculations and interactive 5×5 risk matrices                  |
-| 08 | *Supplier Management*    | Supplier qualification, evaluation, documentation and audit history                       |
-| 09 | *Customer Complaints*    | Complaint intake, investigation, RCA, resolution and regulatory triggers                  |
-| 10 | *Training Management*    | Training matrices, assignments, assessments, competency and renewal tracking              |
-| 11 | *Equipment Management*   | Asset registers, maintenance schedules, operational status and history                    |
-| 12 | *Calibration Management* | Calibration schedules, certificates, tolerance checks and due-date alerts                 |
-| 13 | *Validation Management*  | IQ/OQ/PQ protocols, execution tracking, validation matrices and approvals                 |
-| 14 | *Access Management*      | RBAC, enterprise roles, granular permissions and security controls                        |
-| 15 | *Reports & Analytics*    | Quality dashboards, analytics, reports and export capabilities                            |
+| 01 | **Executive Dashboard**    | Quality KPIs, compliance score, risk overview, pending actions, audit status and activity |
+| 02 | **Document Management**    | SOPs, controlled documents, versioning, review cycles, approvals and archival             |
+| 03 | **CAPA Management**        | Corrective & preventive actions, RCA, action plans and effectiveness verification         |
+| 04 | **Deviation Management**   | Incident reporting, classification, investigation, RCA and trend analysis                 |
+| 05 | **Change Control**         | Change requests, impact assessments, reviews, implementation and closure                  |
+| 06 | **Audit Management**       | Internal, external and supplier audits, findings, checklists and CAPA integration         |
+| 07 | **Risk Management**        | Risk registers, FMEA, RPN calculations and interactive 5×5 risk matrices                  |
+| 08 | **Supplier Management**    | Supplier qualification, evaluation, documentation and audit history                       |
+| 09 | **Customer Complaints**    | Complaint intake, investigation, RCA, resolution and regulatory triggers                  |
+| 10 | **Training Management**    | Training matrices, assignments, assessments, competency and renewal tracking              |
+| 11 | **Equipment Management**   | Asset registers, maintenance schedules, operational status and history                    |
+| 12 | **Calibration Management** | Calibration schedules, certificates, tolerance checks and due-date alerts                 |
+| 13 | **Validation Management**  | IQ/OQ/PQ protocols, execution tracking, validation matrices and approvals                 |
+| 14 | **Access Management**      | RBAC, enterprise roles, granular permissions and security controls                        |
+| 15 | **Reports & Analytics**    | Quality dashboards, analytics, reports and export capabilities                            |
 
 ---
 
 # 🤖 AI Quality Assistant
 
-QualitySphere includes an embedded *AI Quality Assistant* designed to help quality teams work with their organization's quality information more efficiently.
+QualitySphere includes an embedded **AI Quality Assistant** designed to help quality teams work with their organization's quality information more efficiently.
 
 The assistant is accessible through an integrated side panel and supports natural-language interaction with quality workflows and documentation.
 
@@ -74,11 +75,11 @@ Ask questions about quality documentation and operational data using natural lan
 
 Generate initial drafts for:
 
-•⁠  ⁠Standard Operating Procedures
-•⁠  ⁠CAPA records
-•⁠  ⁠Investigation summaries
-•⁠  ⁠Corrective actions
-•⁠  ⁠Preventive actions
+* Standard Operating Procedures
+* CAPA records
+* Investigation summaries
+* Corrective actions
+* Preventive actions
 
 AI-generated content remains subject to appropriate human review and approval workflows.
 
@@ -86,10 +87,10 @@ AI-generated content remains subject to appropriate human review and approval wo
 
 Assist investigations using established methodologies including:
 
-•⁠  ⁠*5 Whys*
-•⁠  ⁠*Fishbone / Ishikawa analysis*
-•⁠  ⁠Contributing-factor identification
-•⁠  ⁠Corrective-action suggestions
+* **5 Whys**
+* **Fishbone / Ishikawa analysis**
+* Contributing-factor identification
+* Corrective-action suggestions
 
 #### 📄 Document Summarization
 
@@ -107,7 +108,7 @@ QualitySphere provides a configurable workflow engine for managing controlled qu
 
 ### Standard document lifecycle
 
-⁠ text
+```text
 Draft
   ↓
 Review
@@ -117,23 +118,23 @@ Approved
 Effective
   ↓
 Obsolete
- ⁠
+```
 
 Workflows can be extended to support organization-specific approval requirements.
 
 ### Workflow capabilities
 
-•⁠  ⁠Multi-stage approvals
-•⁠  ⁠Sequential approvals
-•⁠  ⁠Configurable approval states
-•⁠  ⁠Automated notifications
-•⁠  ⁠Delegation
-•⁠  ⁠Escalation rules
-•⁠  ⁠Approval tracking
-•⁠  ⁠Electronic signatures
-•⁠  ⁠Re-authentication
-•⁠  ⁠Version-controlled transitions
-•⁠  ⁠Complete workflow history
+* Multi-stage approvals
+* Sequential approvals
+* Configurable approval states
+* Automated notifications
+* Delegation
+* Escalation rules
+* Approval tracking
+* Electronic signatures
+* Re-authentication
+* Version-controlled transitions
+* Complete workflow history
 
 ---
 
@@ -145,49 +146,49 @@ QualitySphere is architected with regulated environments in mind.
 
 The platform is designed to support electronic-record and electronic-signature controls through mechanisms such as:
 
-•⁠  ⁠Electronic signatures
-•⁠  ⁠User re-authentication
-•⁠  ⁠Controlled access
-•⁠  ⁠Audit trails
-•⁠  ⁠Record versioning
-•⁠  ⁠Traceable workflow actions
+* Electronic signatures
+* User re-authentication
+* Controlled access
+* Audit trails
+* Record versioning
+* Traceable workflow actions
 
 ### EU GMP Annex 11
 
 QualitySphere incorporates concepts relevant to computerized systems in regulated environments, including:
 
-•⁠  ⁠Controlled access
-•⁠  ⁠Data integrity
-•⁠  ⁠Auditability
-•⁠  ⁠System activity tracking
-•⁠  ⁠Controlled workflows
+* Controlled access
+* Data integrity
+* Auditability
+* System activity tracking
+* Controlled workflows
 
 ### ISO 9001 & ISO 13485
 
 The platform provides functionality supporting quality-management processes such as:
 
-•⁠  ⁠Document control
-•⁠  ⁠CAPA
-•⁠  ⁠Risk management
-•⁠  ⁠Audits
-•⁠  ⁠Training
-•⁠  ⁠Change management
-•⁠  ⁠Supplier management
-•⁠  ⁠Complaint handling
+* Document control
+* CAPA
+* Risk management
+* Audits
+* Training
+* Change management
+* Supplier management
+* Complaint handling
 
 ### ALCOA+ Principles
 
 QualitySphere's data governance approach is designed around data-integrity principles including:
 
-•⁠  ⁠*Attributable*
-•⁠  ⁠*Legible*
-•⁠  ⁠*Contemporaneous*
-•⁠  ⁠*Original*
-•⁠  ⁠*Accurate*
-•⁠  ⁠*Complete*
-•⁠  ⁠*Consistent*
-•⁠  ⁠*Enduring*
-•⁠  ⁠*Available*
+* **Attributable**
+* **Legible**
+* **Contemporaneous**
+* **Original**
+* **Accurate**
+* **Complete**
+* **Consistent**
+* **Enduring**
+* **Available**
 
 ---
 
@@ -201,24 +202,24 @@ QualitySphere provides traceability across critical actions.
 
 The system is designed to track:
 
-•⁠  ⁠Who performed an action
-•⁠  ⁠What was changed
-•⁠  ⁠When the action occurred
-•⁠  ⁠Previous and current values
-•⁠  ⁠Workflow transitions
-•⁠  ⁠Approval events
-•⁠  ⁠Electronic-signature events
+* Who performed an action
+* What was changed
+* When the action occurred
+* Previous and current values
+* Workflow transitions
+* Approval events
+* Electronic-signature events
 
 ### Electronic Signatures
 
 Controlled workflows can require:
 
-1.⁠ ⁠User authentication
-2.⁠ ⁠Re-authentication
-3.⁠ ⁠Signature intent
-4.⁠ ⁠Signature capture
-5.⁠ ⁠Timestamped event
-6.⁠ ⁠Audit trail entry
+1. User authentication
+2. Re-authentication
+3. Signature intent
+4. Signature capture
+5. Timestamped event
+6. Audit trail entry
 
 This creates a traceable relationship between users and quality decisions.
 
@@ -226,23 +227,23 @@ This creates a traceable relationship between users and quality decisions.
 
 # 👥 Enterprise Access Control
 
-QualitySphere uses *Role-Based Access Control (RBAC)* to separate responsibilities across the organization.
+QualitySphere uses **Role-Based Access Control (RBAC)** to separate responsibilities across the organization.
 
-The platform supports *11 default enterprise roles*, with granular permissions and access boundaries.
+The platform supports **11 default enterprise roles**, with granular permissions and access boundaries.
 
 Typical responsibilities can include:
 
-•⁠  ⁠Quality Assurance
-•⁠  ⁠Quality Control
-•⁠  ⁠Document Control
-•⁠  ⁠Auditors
-•⁠  ⁠Manufacturing
-•⁠  ⁠Engineering
-•⁠  ⁠Training
-•⁠  ⁠Regulatory Affairs
-•⁠  ⁠Supplier Quality
-•⁠  ⁠Management
-•⁠  ⁠System Administration
+* Quality Assurance
+* Quality Control
+* Document Control
+* Auditors
+* Manufacturing
+* Engineering
+* Training
+* Regulatory Affairs
+* Supplier Quality
+* Management
+* System Administration
 
 Permissions can be mapped to modules, actions and workflow operations.
 
@@ -254,20 +255,20 @@ QualitySphere converts operational quality data into actionable intelligence.
 
 ### Dashboard insights
 
-•⁠  ⁠Overall quality performance
-•⁠  ⁠Compliance indicators
-•⁠  ⁠Open CAPAs
-•⁠  ⁠Deviation trends
-•⁠  ⁠Audit findings
-•⁠  ⁠Risk distribution
-•⁠  ⁠Training compliance
-•⁠  ⁠Equipment readiness
-•⁠  ⁠Calibration status
-•⁠  ⁠Validation progress
-•⁠  ⁠Supplier performance
-•⁠  ⁠Complaint trends
+* Overall quality performance
+* Compliance indicators
+* Open CAPAs
+* Deviation trends
+* Audit findings
+* Risk distribution
+* Training compliance
+* Equipment readiness
+* Calibration status
+* Validation progress
+* Supplier performance
+* Complaint trends
 
-Interactive visualizations are powered by *Recharts*.
+Interactive visualizations are powered by **Recharts**.
 
 ---
 
@@ -279,54 +280,54 @@ QualitySphere follows a modern enterprise SaaS design system optimized for high-
 
 | Token   | Value     | Purpose                         |
 | ------- | --------- | ------------------------------- |
-| Slate   | ⁠ #0F172A ⁠ | Primary foundation              |
-| Emerald | ⁠ #059669 ⁠ | Primary action / quality accent |
+| Slate   | `#0F172A` | Primary foundation              |
+| Emerald | `#059669` | Primary action / quality accent |
 
 The interface supports both:
 
-•⁠  ⁠🌞 Light mode
-•⁠  ⁠🌙 Dark mode
+* 🌞 Light mode
+* 🌙 Dark mode
 
 ### UX principles
 
-•⁠  ⁠High information density without visual clutter
-•⁠  ⁠Clear workflow states
-•⁠  ⁠Consistent status indicators
-•⁠  ⁠Accessible interaction patterns
-•⁠  ⁠Responsive layouts
-•⁠  ⁠Enterprise-grade data tables
-•⁠  ⁠Contextual actions
-•⁠  ⁠Persistent navigation
-•⁠  ⁠Integrated AI assistance
+* High information density without visual clutter
+* Clear workflow states
+* Consistent status indicators
+* Accessible interaction patterns
+* Responsive layouts
+* Enterprise-grade data tables
+* Contextual actions
+* Persistent navigation
+* Integrated AI assistance
 
 ---
 
 # 🛠️ Technology Stack
 
-QualitySphere is built using a modern *full-stack TypeScript architecture*.
+QualitySphere is built using a modern **full-stack TypeScript architecture**.
 
 ### Frontend
 
-•⁠  ⁠*React*
-•⁠  ⁠*TypeScript*
-•⁠  ⁠*TanStack Start*
-•⁠  ⁠*Tailwind CSS*
-•⁠  ⁠*shadcn/ui*
-•⁠  ⁠*Lucide Icons*
+* **React**
+* **TypeScript**
+* **TanStack Start**
+* **Tailwind CSS**
+* **shadcn/ui**
+* **Lucide Icons**
 
 ### State & Data
 
-•⁠  ⁠*Zustand* — Client/UI state
-•⁠  ⁠*TanStack Query* — Server state and asynchronous data management
+* **Zustand** — Client/UI state
+* **TanStack Query** — Server state and asynchronous data management
 
 ### Visualization
 
-•⁠  ⁠*Recharts*
+* **Recharts**
 
 ### Validation & Forms
 
-•⁠  ⁠*React Hook Form*
-•⁠  ⁠*Zod*
+* **React Hook Form**
+* **Zod**
 
 ---
 
@@ -334,7 +335,7 @@ QualitySphere is built using a modern *full-stack TypeScript architecture*.
 
 The application follows a modular architecture designed to allow individual quality domains to evolve independently while sharing common enterprise infrastructure.
 
-⁠ text
+```text
 ┌───────────────────────────────────────────────┐
 │                 QualitySphere                 │
 ├───────────────────────────────────────────────┤
@@ -358,11 +359,11 @@ The application follows a modular architecture designed to allow individual qual
 │            Governance Layer                  │
 │ RBAC │ Audit Trails │ Versioning │ Security   │
 └───────────────────────────────────────────────┘
- ⁠
+```
 
 ---
 
-
+```
 qualitysphere-qms/
 ├── public/
 │   ├── favicon.ico
@@ -446,7 +447,7 @@ qualitysphere-qms/
 ├── tsconfig.json
 └── README.md
 
-
+```
 
 ---
 
@@ -456,10 +457,10 @@ qualitysphere-qms/
 
 Make sure you have the following installed:
 
-•⁠  ⁠*Node.js 18+*
-•⁠  ⁠*npm 9+*
+* **Node.js 18+**
+* **npm 9+**
 
-Alternatively, you can use *pnpm* or *yarn*.
+Alternatively, you can use **pnpm** or **yarn**.
 
 ---
 
@@ -467,21 +468,21 @@ Alternatively, you can use *pnpm* or *yarn*.
 
 Clone the repository:
 
-⁠ bash
+```bash
 git clone https://github.com/SathavarthIllapani/QualityManagementSystem.git
- ⁠
+```
 
 Navigate into the project:
 
-⁠ bash
+```bash
 cd QualityManagementSystem
- ⁠
+```
 
 Install dependencies:
 
-⁠ bash
+```bash
 npm install
- ⁠
+```
 
 ---
 
@@ -489,9 +490,9 @@ npm install
 
 Create your local environment file:
 
-⁠ bash
+```bash
 cp .env.example .env
- ⁠
+```
 
 Configure the required environment variables according to your local setup.
 
@@ -499,15 +500,15 @@ Configure the required environment variables according to your local setup.
 
 ## Start Development Server
 
-⁠ bash
+```bash
 npm run dev
- ⁠
+```
 
 The application will be available at:
 
-⁠ text
+```text
 http://localhost:3000
- ⁠
+```
 
 ---
 
@@ -515,100 +516,100 @@ http://localhost:3000
 
 ## Phase 1 — Enterprise Prototype
 
-•⁠  ⁠[x] Enterprise QMS interface
-•⁠  ⁠[x] 15-module application surface
-•⁠  ⁠[x] Executive dashboard
-•⁠  ⁠[x] AI assistant interface
-•⁠  ⁠[x] Workflow interfaces
-•⁠  ⁠[x] Electronic-signature interactions
-•⁠  ⁠[x] Audit-trail interface
-•⁠  ⁠[x] Dark/light themes
-•⁠  ⁠[x] Enterprise RBAC interface
-•⁠  ⁠[x] Quality analytics dashboards
+* [x] Enterprise QMS interface
+* [x] 15-module application surface
+* [x] Executive dashboard
+* [x] AI assistant interface
+* [x] Workflow interfaces
+* [x] Electronic-signature interactions
+* [x] Audit-trail interface
+* [x] Dark/light themes
+* [x] Enterprise RBAC interface
+* [x] Quality analytics dashboards
 
 ---
 
 ## Phase 2 — Production MVP
 
-•⁠  ⁠[ ] PostgreSQL database
-•⁠  ⁠[ ] Multi-tenant architecture
-•⁠  ⁠[ ] Production authentication
-•⁠  ⁠[ ] Granular authorization
-•⁠  ⁠[ ] Persistent audit trails
-•⁠  ⁠[ ] Document storage
-•⁠  ⁠[ ] PDF rendering
-•⁠  ⁠[ ] Electronic-signature verification
-•⁠  ⁠[ ] Workflow execution engine
-•⁠  ⁠[ ] Background jobs
-•⁠  ⁠[ ] Email notifications
-•⁠  ⁠[ ] Advanced AI/RAG integration
+* [ ] PostgreSQL database
+* [ ] Multi-tenant architecture
+* [ ] Production authentication
+* [ ] Granular authorization
+* [ ] Persistent audit trails
+* [ ] Document storage
+* [ ] PDF rendering
+* [ ] Electronic-signature verification
+* [ ] Workflow execution engine
+* [ ] Background jobs
+* [ ] Email notifications
+* [ ] Advanced AI/RAG integration
 
 ---
 
 ## Phase 3 — Enterprise Scale
 
-•⁠  ⁠[ ] Enterprise SSO
-•⁠  ⁠[ ] SAML / OIDC
-•⁠  ⁠[ ] LDAP integration
-•⁠  ⁠[ ] Multi-factor authentication
-•⁠  ⁠[ ] Redis caching
-•⁠  ⁠[ ] Background job queues
-•⁠  ⁠[ ] API gateway
-•⁠  ⁠[ ] Horizontal scaling
-•⁠  ⁠[ ] Kubernetes deployment
-•⁠  ⁠[ ] Disaster recovery
-•⁠  ⁠[ ] Enterprise observability
-•⁠  ⁠[ ] Advanced tenant isolation
+* [ ] Enterprise SSO
+* [ ] SAML / OIDC
+* [ ] LDAP integration
+* [ ] Multi-factor authentication
+* [ ] Redis caching
+* [ ] Background job queues
+* [ ] API gateway
+* [ ] Horizontal scaling
+* [ ] Kubernetes deployment
+* [ ] Disaster recovery
+* [ ] Enterprise observability
+* [ ] Advanced tenant isolation
 
 ---
 
 # 🔭 Future Vision
 
-QualitySphere aims to evolve from a conventional QMS into an *AI-assisted quality intelligence platform*.
+QualitySphere aims to evolve from a conventional QMS into an **AI-assisted quality intelligence platform**.
 
 Future capabilities may include:
 
-•⁠  ⁠Predictive quality analytics
-•⁠  ⁠AI-assisted deviation investigations
-•⁠  ⁠Automated CAPA effectiveness analysis
-•⁠  ⁠Risk trend prediction
-•⁠  ⁠Intelligent audit preparation
-•⁠  ⁠Supplier risk intelligence
-•⁠  ⁠Quality knowledge graphs
-•⁠  ⁠Regulatory intelligence
-•⁠  ⁠Cross-module anomaly detection
-•⁠  ⁠AI-powered inspection readiness
+* Predictive quality analytics
+* AI-assisted deviation investigations
+* Automated CAPA effectiveness analysis
+* Risk trend prediction
+* Intelligent audit preparation
+* Supplier risk intelligence
+* Quality knowledge graphs
+* Regulatory intelligence
+* Cross-module anomaly detection
+* AI-powered inspection readiness
 
-The long-term goal is to move quality teams from *reactive compliance management toward proactive quality intelligence*.
+The long-term goal is to move quality teams from **reactive compliance management toward proactive quality intelligence**.
 
 ---
 
 # ⚠️ Regulatory Disclaimer
 
-QualitySphere is software designed to *support quality-management and compliance workflows*.
+QualitySphere is software designed to **support quality-management and compliance workflows**.
 
 References to FDA 21 CFR Part 11, EU GMP Annex 11, ISO standards, ALCOA+, ICH Q10, or other regulatory frameworks describe the system's design objectives and supported controls. They should not be interpreted as a guarantee of regulatory compliance or certification.
 
 Actual compliance depends on the organization's:
 
-•⁠  ⁠Configuration
-•⁠  ⁠Procedures
-•⁠  ⁠Validation activities
-•⁠  ⁠User controls
-•⁠  ⁠Infrastructure
-•⁠  ⁠Operating environment
-•⁠  ⁠Data governance
-•⁠  ⁠Quality-management practices
+* Configuration
+* Procedures
+* Validation activities
+* User controls
+* Infrastructure
+* Operating environment
+* Data governance
+* Quality-management practices
 
-Organizations deploying QualitySphere in regulated environments should perform their own *computer system validation (CSV), risk assessment, qualification, and regulatory assessment* as appropriate.
+Organizations deploying QualitySphere in regulated environments should perform their own **computer system validation (CSV), risk assessment, qualification, and regulatory assessment** as appropriate.
 
 ---
 
 # 📄 License
 
-This project is distributed under the *MIT License*.
+This project is distributed under the **MIT License**.
 
-See the ⁠ LICENSE ⁠ file for details.
+See the `LICENSE` file for details.
 
 ---
 
@@ -622,6 +623,6 @@ Before submitting a major change, please consider opening an issue to discuss th
 
 ## QualitySphere QMS
 
-*One platform. Every quality process. Intelligent by design.*
+**One platform. Every quality process. Intelligent by design.**
 
-	⁠Built to bring modern software engineering, enterprise quality management, and AI-assisted decision support together in one unified QMS.
+> Built to bring modern software engineering, enterprise quality management, and AI-assisted decision support together in one unified QMS.
