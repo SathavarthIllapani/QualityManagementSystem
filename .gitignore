@@ -34,3 +34,8 @@ dist-ssr
 dist
 .output
 node_modules
+.env
+.env.*
+.vercel
+dist
+.output
